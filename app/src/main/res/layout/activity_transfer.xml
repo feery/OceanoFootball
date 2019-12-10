@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fycedwin.oceanofootball.activity.TransferActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+
+            >
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logooceanosplace"
+                tools:ignore="ContentDescription"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Batas Waktu Pembayaran "
+                android:padding="20dp"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/afk_hitung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:text="06:00:00"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumlah Tagiahan"
+                android:padding="20dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/ovk_harga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp.1400000"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transfer dapat dilakukan di nomor rekenin di bawah ini."
+                android:padding="20dp"
+                android:textSize="14sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#bbb"/>
+            <ImageView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/bca"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PT Mutiara Raga Indah"
+
+                android:textSize="20sp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="244.300.4220"
+                android:textStyle="bold"
+                android:textColor="@color/bg_login"
+                android:textSize="25sp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cab. Pluit Kencana"
+                android:textSize="18sp"
+                android:gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#bbb"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Masukan Nomor Transakasi / Bukti Nomor Transfer anda untuk melunasi pembayaran Booking ."
+                android:padding="20dp"
+                android:textSize="14sp"/>
+
+            <EditText
+
+                android:id="@+id/mvp_keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+             android:textAlignment="center"
+                android:hint="Example : 06353*******"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+
+            <Button
+                android:id="@+id/goHome"
+
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/bg_login"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

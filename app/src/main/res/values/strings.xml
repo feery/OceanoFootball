@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Oceano Football</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_more">More</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="_2017_oceanofootball_com">© 2017 oceanofootball.com</string>
+    <string name="key_pref">MyPreferences</string>
+    <string name="key_password">password</string>
+    <string name="key_email">email</string>
+    <string name="large_text">
+
+        "Ocean Football Stadium dibangun untuk memenuhi hasrat para pengila sepak bola di tanah air."
+        "Dengan luas lapangan lebih dari 1800 meter persegi, di kawasan hampir 40.000 meter persegi"
+        "ini, Oceano Football Stadium telah menjadi idola dan homebase bagi para pelatih-pelatih"
+        "nasional dan pemain-pemain muda untuk berprestasi dalam kancah nasional dbahkan"
+        "internasional.\n\n"
+        "Oceano Football stadum mengunakan rumput sintetis ber-grade A dengan standard FIFA, "
+        "kualitas terbaik dari italy. Kamar bilas yang dilengkapi water heater dan air conditioner"
+        "juga merupakan exellent service yang diberikan Pantai Mutiara Sports club bagi para pemain."
+        "Ruang tunggu yang nyaman, area tribune yang dilengkapi charing hp dan menikmati dinginya"
+        "juice segar di oceano cafe, seakan - akan memberikan kelas eksklusifitas tersendiri bagi"
+        "para pemainnya.\n\n"
+        "Kemudahan teknologi juga memunginkan anda melakukan booking secara online melalui website"
+        "atau appliksi untuk memilih slot-slot hari dan jam yang tersedia.\n\n"
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="alamat">
+        "Pantai Mutiara Sport Club \n\n"
+        "Jl. Raya Pantai Mutiara, Pluit, Penjaringan, RT.6/RW.16, Pluit, Penjaringan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14460\n"
+        </string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_waktu">WaktuActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="title_profile">
+        <item>Profile</item>
+        <item>Maps</item>
+        <item>Logout</item>
+    </string-array>
+    <string name="litel_about">
+        "Akses Lapangan mini soccer (lapangan besar dari standar lapangan)"
+        "untuk bermain 7 VS 7 "
+        "dengan teman anda."
+    </string>
+    <string name="about">ABOUT</string>
+    <string name="waktu">08:00 - 10:00</string>
+    <string name="_2_hour_mini_soccer_access">2 Hour Mini Soccer Access</string>
+    <string name="booking_activity">Booking Activity</string>
+    <string name="location">Location</string>
+    <string name="tanggal">Mon,14 Aug 2017</string>
+    <string name="oceano_mini_soccer">Oceano Mini Soccer</string>
+    <string name="pantai_mutiara">Pantai Mutiara</string>
+    <string name="rp_1_400_000">Rp.1.400.000</string>
+</resources>

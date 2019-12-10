@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fycedwin.oceanofootball.activity.StatusBookingActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <android.support.design.widget.AppBarLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:theme="@style/AppTheme.AppBarOverlay"
+           >
+
+           <android.support.v7.widget.Toolbar
+               android:id="@+id/toolbar"
+               android:layout_width="match_parent"
+               android:layout_height="?attr/actionBarSize"
+               android:background="?attr/colorPrimary"
+
+               >
+
+               <ImageView
+                   android:layout_width="250dp"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/logooceanosplace"
+                   tools:ignore="ContentDescription"/>
+
+           </android.support.v7.widget.Toolbar>
+
+       </android.support.design.widget.AppBarLayout>
+<include
+    android:id="@+id/not_booking"
+    layout="@layout/not_booking"
+    />
+       <LinearLayout
+           android:id="@+id/booking_now"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:text="Now You're Booking"
+               android:textAlignment="center"
+               android:textColor="#000"
+               android:textSize="24sp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:text="@string/_2_hour_mini_soccer_access"
+               android:textAlignment="center"
+               android:textColor="#000"
+               android:textSize="20sp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="5dp"
+               android:text="@string/oceano_mini_soccer"
+               android:textAlignment="center"
+               android:textColor="@color/bg_login"
+               android:textSize="16sp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="5dp"
+               android:text="@string/pantai_mutiara"
+               android:textAlignment="center"
+               android:textSize="16sp"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:text="@string/rp_1_400_000"
+               android:textAlignment="center"
+               android:textColor="@color/bg_main"
+               android:textSize="16sp"/>
+
+       </LinearLayout>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginTop="5dp"
+           android:background="#bbb"/>
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:orientation="horizontal"
+           >
+
+           <TextView
+               android:id="@+id/title_nomor_reservasi"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="No Booking"
+               android:textAlignment="center"
+               android:textSize="20sp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_centerVertical="true"
+               android:layout_alignParentStart="true"
+               android:layout_marginStart="18dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginEnd="21dp"
+               android:layout_marginLeft="100dp"
+               android:text="1701239613"
+               android:textAlignment="center"
+               android:textColor="#000"
+               android:textSize="20sp"
+               android:layout_centerVertical="true"
+               android:layout_alignParentEnd="true"
+               android:id="@+id/nomor_reservasi"/>
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:orientation="horizontal"
+           >
+
+           <TextView
+               android:id="@+id/textView4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="Date"
+               android:textAlignment="center"
+               android:textSize="20sp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_alignParentBottom="true"
+               android:layout_alignTop="@+id/textView5"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginEnd="21dp"
+               android:layout_marginLeft="100dp"
+               android:text="Tue,15 Aug 2017"
+               android:textAlignment="center"
+               android:textColor="#000"
+               android:textSize="20sp"
+               android:layout_centerVertical="true"
+               android:layout_alignParentEnd="true"
+               android:id="@+id/textView5"/>
+
+       </RelativeLayout>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="15dp"
+           android:layout_marginTop="5dp"
+           android:background="#bbb"/>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:id="@+id/textView3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="Time"
+               android:textAlignment="center"
+               android:textSize="20sp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_alignParentBottom="true"
+               android:layout_alignTop="@+id/textView"/>
+
+           <TextView
+               android:id="@+id/textView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="100dp"
+               android:text="11:30 -13:00"
+               android:textAlignment="center"
+               android:textColor="#000"
+               android:textSize="20sp"
+               android:layout_marginEnd="25dp"
+               android:layout_centerVertical="true"
+               android:layout_alignParentEnd="true"/>
+
+       </RelativeLayout>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="15dp"
+           android:layout_marginTop="5dp"
+           android:background="#bbb"/>
+
+
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="15dp"
+           android:layout_marginTop="5dp"
+           android:background="#bbb"/>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp">
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="Total Price"
+               android:textAlignment="center"
+               android:textSize="20sp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_alignParentBottom="true"
+               android:layout_alignTop="@+id/textView8"/>
+
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="100dp"
+               android:text="Rp.1.400.000"
+               android:textAlignment="center"
+               android:textColor="#000"
+               android:textSize="20sp"
+               android:layout_marginEnd="25dp"
+               android:layout_centerVertical="true"
+               android:layout_alignParentEnd="true"
+               android:id="@+id/textView8"/>
+       </RelativeLayout>
+   </LinearLayout>
+
+
+</LinearLayout>
